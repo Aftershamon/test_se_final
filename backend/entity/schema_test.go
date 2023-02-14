@@ -12,7 +12,7 @@ func TestNameCanNotBlank(t *testing.T) {
 	g := NewGomegaWithT(t)
 
 	name := Video{
-		Name: "", //ผิด
+		Name: "", //ผิดddd
 	}
 
 	ok, err := govalidator.ValidateStruct(name)
