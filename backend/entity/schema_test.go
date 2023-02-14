@@ -2,7 +2,7 @@ package entity
 
 import (
 	"testing"
-	"time"
+	//"time"
 
 	"github.com/asaskevich/govalidator"
 	. "github.com/onsi/gomega"
@@ -40,7 +40,7 @@ func TestEmail (t *testing.T){
 
 	email := Video{
 		Name: "Ja",
-		Reason: "ok",
+		Reason: "okk",
 		Email: "kkk", //
 	}
 	ok,err := govalidator.ValidateStruct(email)
