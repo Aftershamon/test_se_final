@@ -1,6 +1,6 @@
 package entity
 
-//import "time"
+//import "time"//////
 
 type Video struct {
 	ID     uint   `gorm:"primaryKey"`
